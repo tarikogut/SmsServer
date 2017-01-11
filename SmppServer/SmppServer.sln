@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{829468C1-E8AE-4925-8289-B4DEC8DE58EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A8C80429-478C-45EF-8CBD-F8811C93DB84}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SmppServer", "src\SmppServer\SmppServer.xproj", "{3300B565-8ED6-4CDB-96DE-BEFB045CE1EC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SmsLibrary", "src\SmsLibrary\SmsLibrary.xproj", "{BA72B97C-0E25-42DB-B766-8C39DC504924}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3300B565-8ED6-4CDB-96DE-BEFB045CE1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3300B565-8ED6-4CDB-96DE-BEFB045CE1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3300B565-8ED6-4CDB-96DE-BEFB045CE1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3300B565-8ED6-4CDB-96DE-BEFB045CE1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA72B97C-0E25-42DB-B766-8C39DC504924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA72B97C-0E25-42DB-B766-8C39DC504924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA72B97C-0E25-42DB-B766-8C39DC504924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA72B97C-0E25-42DB-B766-8C39DC504924}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3300B565-8ED6-4CDB-96DE-BEFB045CE1EC} = {829468C1-E8AE-4925-8289-B4DEC8DE58EB}
+		{BA72B97C-0E25-42DB-B766-8C39DC504924} = {829468C1-E8AE-4925-8289-B4DEC8DE58EB}
+	EndGlobalSection
+EndGlobal
